@@ -1,0 +1,37 @@
+
+@media screen and (min-width: 375px) and (max-width: 735px)  {
+
+.flex.flex-2 .col.col1, .flex.flex-2 .col.col2 {
+width: 100%;    
+margin-bottom: 2em;
+}
+
+.flex.flex-2 .col.col1 .image, .flex.flex-2 .col.col2 .image {
+max-width: 60%;
+margin: 0 auto 2em auto;
+}
+
+}
+
+.flex.flex-3 .col {
+width: 28%;
+}
+
+@media screen and (min-width: 376px) and (max-width: 800px) {
+.flex.flex-3 .col {	width: 100%; margin-bottom: 2em;				}
+.flex.flex-3 .col .image {max-width: 50%; margin: 0 auto 2em auto;	}
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 736px) {
+
+.wrapper header {
+margin-bottom: 2em;
+}
+
+}
+
+.wrapper.style1 {
+background-color: #fafafa;
+/*! color: #999999; */
+}
