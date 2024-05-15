@@ -73,7 +73,30 @@ Git é um sistema de controle de versões distribuído, usado principalmente no 
 				<p>O software livre é um tipo de software desenvolvido e mantido de maneira colaborativa, onde o código-fonte está disponível para todos que quiserem usar, investigar, alterar e redistribuir. O open source beneficia diferentes iniciativas, pois não está focado em obter lucros relacionados à propriedade intelectual.Isso contrasta com os aplicativos proprietários ou softwares proprietários, por exemplo, o Microsoft Word e o Adobe Illustrator, que são vendidos aos usuários finais pelo criador ou portador do copyright e não podem ser editados, aprimorados ou redistribuídos exceto quando especificado pelo portador do copyright.</p>
 										
 				<a href="#" class="button">Saiba Mais</a></div>	</div></div>
-				
+			<hr>
+		 <div class="container">
+        <h1>Calculadora de Soma</h1>
+        <input type="number" id="num1" placeholder="Insira o primeiro número">
+        <input type="number" id="num2" placeholder="Insira o segundo número">
+        <button onclick="calcularSoma()">Somar</button>
+        <div id="resultado"></div>
+    </div>
+    
+    <script>
+	    function calcularSoma() {
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+
+    var resultado = document.getElementById('resultado');
+
+    if (!isNaN(num1) && !isNaN(num2)) {
+        var soma = num1 + num2;
+        resultado.textContent = 'A soma é: ' + soma;
+    } else {
+        resultado.textContent = 'Por favor, insira números válidos.';
+    }
+}
+    </script>
 					
 
 <!-- ***************************************************<FOOTER>************************************************/ -->
