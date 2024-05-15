@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-/* *,
+*,
 *::after,
 *::before {
   margin: 0;
@@ -170,7 +170,7 @@ h3 {
 }
 
 .ad5-text-component :where(h1, h2, h3, h4) {
-  line-height: var(--ad5-heading-line-height, 1.2);
+  line-height: var(--ad5-heading-line-height, 1.8);
   margin-top: calc(var(--ad5-space-md) * var(--ad5-space-multiplier, 1));
   margin-bottom: calc(var(--ad5-space-sm) * var(--ad5-space-multiplier, 1));
 }
