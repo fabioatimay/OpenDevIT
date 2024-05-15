@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-*,
+/* *,
 *::after,
 *::before {
   margin: 0;
@@ -39,7 +39,7 @@ h3 {
   --ad5-color-contrast-higher-hsl: 230, 13%, 9%;
   --ad5-color-contrast-medium-hsl: 225, 4%, 47%;
   --ad5-color-accent-hsl: 342, 89%, 48%;
-  --ad5-color-contrast-lower-hsl: 220, 75%, 36%;
+  --ad5-color-contrast-lower-hsl: 220, 75%, 36%; */
 
   /* spacing */
   --ad5-space-xs: 0.5rem;
