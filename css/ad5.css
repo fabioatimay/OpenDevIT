@@ -312,6 +312,10 @@ p.ad5-color-contrast-medium.ad5-text-md {
 .ad5-margin-bottom-lg {
   margin-bottom: var(--ad5-space-lg);
 }
+.ad5-margin-top-lg {
+  margin-top: var(--ad5-space-lg);
+}
+
 
 .ad5-max-width-lg {
   max-width: 80rem;
@@ -352,6 +356,10 @@ img.ad5-block.ad5-width-100\%.ad5-radius-lg {
 .ad5-margin-bottom-md {
   margin-bottom: var(--ad5-space-md);
 }
+.ad5-margin-top-md {
+  margin-top: var(--ad5-space-md);
+}
+
 
 .ad5-max-width-xs {
   max-width: 38rem;
