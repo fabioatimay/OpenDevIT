@@ -346,12 +346,13 @@ font-weight: 250 !important;
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    color: #4CAF50;
 }
 
 .terminal-container button {
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: black
+    color: #4CAF50;
     border: none;
     cursor: pointer;
 }
@@ -359,5 +360,6 @@ font-weight: 250 !important;
 #resultado {
     margin-top: 20px;
     font-size: 20px;
-    color:red;
+    color: #4CAF50;
+    ;
 }
