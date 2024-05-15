@@ -325,3 +325,39 @@ color: blue !important;
 font-weight: 250 !important;
 }
 }
+
+/*********************************************************************************/
+/* EXTRAS                                                                     */
+/*********************************************************************************/
+
+.terminal-container {
+        max-width: 400px;
+    margin: auto auto;
+    text-align: left;
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terminal-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.terminal-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    color:red;
+}
