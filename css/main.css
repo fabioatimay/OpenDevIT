@@ -343,7 +343,7 @@ font-weight: 250 !important;
   display:inline-flex;
 }
 
-.terminal-container img {
+.terminal-container figure > img {
   float:right;
   width: 16px;
   height: 16px;
