@@ -80,7 +80,7 @@ Git é um sistema de controle de versões distribuído, usado principalmente no 
         <input type="number" id="num1" placeholder="Insira o primeiro número">
         <input type="number" id="num2" placeholder="Insira o segundo número">
 		</div>
-        <button onclick="calcularSoma()">Somar</button>
+        <button onclick="calcularSoma()">Somar</button> <button onclick="calcularSoma2()">Subtrair</button>
         <div id="resultado"></div>
     </div>
     
@@ -94,6 +94,19 @@ Git é um sistema de controle de versões distribuído, usado principalmente no 
     if (!isNaN(num1) && !isNaN(num2)) {
         var soma = num1 + num2;
         resultado.textContent = 'A soma é: ' + soma;
+    } else {
+        resultado.textContent = 'Por favor, insira números válidos.';
+    }
+}
+	     function calcularSoma2() {
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+
+    var resultado = document.getElementById('resultado');
+
+    if (!isNaN(num1) && !isNaN(num2)) {
+        var soma = num1 - num2;
+        resultado.textContent = 'A subtracao é: ' + soma;
     } else {
         resultado.textContent = 'Por favor, insira números válidos.';
     }
