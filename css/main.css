@@ -331,7 +331,7 @@ font-weight: 250 !important;
 /*********************************************************************************/
 
 .terminal-container {
-        max-width: 400px;
+        max-width: max-content;
     margin: auto auto;
     text-align: left;
   background-color: black;
@@ -344,14 +344,15 @@ font-weight: 250 !important;
 
 .terminal-container input[type="number"] {
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
     color: #4CAF50;
 }
 
 .terminal-container button {
     padding: 10px 20px;
-    background-color: black
+    background-color: black;
     color: #4CAF50;
     border: none;
     cursor: pointer;
