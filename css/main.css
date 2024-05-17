@@ -340,6 +340,14 @@ font-weight: 250 !important;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display:inline-flex;
+}
+
+.terminal-container img {
+  float:right;
+  width: 16px;
+  height: 16px;
+
 }
 
 .terminal-container input[type="number"] {
@@ -363,3 +371,4 @@ font-weight: 250 !important;
     color: #4CAF50;
     ;
 }
+
