@@ -340,18 +340,10 @@ font-weight: 250 !important;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display:inline-flex;
-}
-
-.terminal-container figure > img {
-  float:right;
-  width: 16px;
-  height: 16px;
-
 }
 
 .terminal-container input[type="number"] {
-    width: max-content;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     color: #4CAF50;
