@@ -223,9 +223,19 @@ box-sizing: border-box;
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
+#footerSection{
+  margin-top:5px;
+  width:100%;
+  height:100%;
+  /* position:relative; */
+  top:0;
+  left:0;
+  /* background: #3A3A3A; */
+  text-align: center;
+  padding-bottom: 1.5rem;
+  }
 
-
-.footer #button{
+.footerFloat #button{
 width:35px;
 height:35px;
 border: #727172 12px solid;
@@ -234,14 +244,14 @@ margin:0 auto;
 position:relative;
 transition: all 1s ease;
 }
-.footer #button:hover{
+.footerFloat #button:hover{
 width:35px;
 height:35px;
 border: #3A3A3A 12px solid;
 transition: all 1s ease;
 position:relative;
 }
-.footer {
+.footerFloat {
 bottom:0;
 left:0;
 position:fixed;
@@ -252,11 +262,11 @@ margin:0 auto;
 transition: all 1s ease;
 z-index:999;
 }
-.footer:hover {
+.footerFloat:hover {
 transition: all 1s ease;
-height: 12.5em;
+height: 15.5em;
 }
-.footer #container{
+.footerFloat #containerFooter{
 margin-top:5px;
 width:100%;
 height:100%;
@@ -265,7 +275,7 @@ top:0;
 left:0;
 background: #3A3A3A;
 }
-.footer #cont{
+.footerFloat #cont{
 position:relative;
 top:-45px;
 right:190px;
@@ -273,16 +283,16 @@ width:150px;
 height:auto;
 margin:0 auto;
 }
-.footer_center{
+.footerFloat_center{
 width:500px;
 float:left;
 text-align:center;
 }
-.footer h3{
+.footerFloat h3{
 font-family: 'Helvetica';
 font-size: 30px;
 font-weight: 100;
-margin-top:70px;
+margin-top:50px;
 margin-left:40px;
 }
 
@@ -297,7 +307,7 @@ text-align: center;
 color: #774535;
 }
 
-#copyright .container
+#copyright .containerFooter
 {
 padding: 3em 0em;
 border-top: 1px solid;
@@ -329,39 +339,25 @@ font-weight: 250 !important;
 /*********************************************************************************/
 /* EXTRAS                                                                     */
 /*********************************************************************************/
-
-.terminal-container {
-        max-width: max-content;
-    margin: auto auto;
-    text-align: left;
-  background-color: black;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.terminal-container input[type="number"] {
+/* Estilos para o formulário */
+.form-group {
+    padding-top: 0.7rem;
+    position: relative;
+    margin-bottom: 0.7rem;
     width: 100%;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: #4CAF50;
 }
-
-.terminal-container button {
-    padding: 10px 20px;
-    background-color: black;
-    color: #4CAF50;
-    border: none;
-    cursor: pointer;
+input:placeholder-shown + label {
+    opacity: 0;
+    transform: translateY(1rem);
 }
-
-#resultado {
-    margin-top: 20px;
-    font-size: 20px;
-    color: #4CAF50;
-    ;
+input:required + .help-text::before {
+    content: '* Obrigatório';
 }
-
+input:optional + .help-text::before {
+    content: '* Opcional';
+}
+input:disabled {
+    background-color: #f9f9f9;
+    border-color: #ddd;
+    color: #999;
+}
