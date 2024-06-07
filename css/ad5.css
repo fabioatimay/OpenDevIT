@@ -308,6 +308,11 @@ p.ad5-color-contrast-medium.ad5-text-md {
   width: 100%;
 }
 
+.ad5-width-90\% {
+  width: 90%;
+}
+
+
 .ad5-block {
   display: block;
 }
